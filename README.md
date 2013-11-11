@@ -49,15 +49,15 @@ section[layout~="option"] {
 
 ## Size Queries
 
-Available measurements.
+Available measurements (in `em`):
 ```json
 [1,2,3,4,5,10,20,30,40,50,60,70,80,90,100]
 ```
 
-* `[min-width~="10"]` — section is at least `10em` wide
-* `[max-width~="60"]` — section is no more than `60em` wide
-* `[min-height~="1"]` — section is at least `1em` high
-* `[max-height~="10"]` — section is no more than `10em` high
+* `[min-width~="10em"]` — section is at least `10em` wide
+* `[max-width~="60em"]` — section is no more than `60em` wide
+* `[min-height~="1em"]` — section is at least `1em` high
+* `[max-height~="10em"]` — section is no more than `10em` high
 
 
 ## Usage
