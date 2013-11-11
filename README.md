@@ -12,17 +12,17 @@ ul.nav li {
   display: block;
 }
 
-// float each navigation item left if we have a large width and small height
+/* float each navigation item left if we have a large width and small height */
 section[min-width~="40em"][min-height~="5em"] ul.nav li {
   float: left;
 }
 
-// alternatively you can use the layout shortcuts provided
+/* alternatively you can use the layout shortcuts provided */
 section[layout~="text-row-long"] ul.nav li {
   float: left;
 }
 
-// show in rows as long as the container is under 40em wide and at least 20em tall
+/* show in rows as long as the container is under 40em wide and at least 20em tall */
 section[max-width~="40em"][min-height~="20em"] ul.nav li {
   float: none;
 }
